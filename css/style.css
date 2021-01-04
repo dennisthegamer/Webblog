@@ -1,0 +1,156 @@
+/* Body: hier wird das Hintergrundbild so an die Website angepasst, dass das Bild immer voll da ist. */
+body {
+  background: url(../pics/backgr.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* navlinks: sorgt dafür, dass alle Links links ausgerichtet sind.*/
+.navlinks {
+  float: left;
+}
+
+/* navleiste: sorgt dafür das die Navigatiosleiste seine Gestallt annimmt. */
+#navleiste {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+/* navlinks a: ist dafür da das die Links in der Navigationsleiste seine Gestallt annehmen */
+.navlinks a {
+  display: block;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+/* eingabefeld: sorgt dafür das die Eingabefelder einheitlich aussehen. */
+.eingabefeld {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* icon: Icon sezt die Atribute für die Icons. */
+.icon {
+  padding: 10px;
+  background: gray;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* eingabefeld-text: wie der name schon sagt sorgt das für die größe. */
+.eingabefeld-text {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+/* btn: dieser setzt den style für die buttons. */
+.btn {
+  background-color: gray;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* hanm: sorgt dafür das die h2 überschriften in der mitte sitzen. */
+.hanm {
+  text-align: center;
+}
+
+/* user: dieser div user sorgt dafür das die daten auf der aboutpage alle gleich aussehen. */
+.user {
+  /* float: left; */
+  width: 100%;
+  height: 500px;
+  margin-right: 3.33333%;
+  margin-bottom: 3%;
+  padding: 20px;
+  background: #eee;
+  box-sizing: border-box;
+  border-radius: 1em;
+  font-size: 30px;
+}
+
+/* usertext: der inhalt des 2 ten div auf die richtige stelle. */
+.usertext {
+  position: absolute;
+  /* margin-right: ; */
+}
+
+/* nav-div: sorgt dafür das unter dem nav container unten ein wenig platz hat. */
+.nav-div {
+  margin-bottom: 100px;
+}
+
+/* post titel: sorgt dafür das er den titel von dem ofizellen post auf die gleiche größe bringt. */
+.post-titel {
+  font-size: 35px;
+}
+
+/*  post-text: sorgt dafür das er den text von dem ofizellen post auf die gleiche größe bringt. */
+.post-text {
+  font-size: large;
+  width: 850px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* img: setzt das image auf eine bestimmte größe. */
+img {
+  width: 400px;
+}
+
+/* h1start: sorgt dafür das der text der überschrift die angegbenen atribute hat. */
+#h1start {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* h2start: sorgt dafür das der text der unterüberschrift die angegbenen atribute hat. */
+#h2start {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+/* vollerpost: anzeige des vollenpost mit den angegeben Atributen. */
+.vollerpost {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: larger;
+}
+
+/* backpost: sorgt dafür wie der button zurück zur startseite aussieht. */
+#backpost {
+  background-color: gray;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* bild: sorgt für die größe und die ausrichtung des bild containers. */
+.bild {
+  width: 300px;
+  margin-left: 1400px;
+}
